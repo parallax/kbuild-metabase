@@ -75,7 +75,7 @@ spec:
             secretKeyRef:
               name: 'mysql57-credentials-{{ branch }}'
               key: database
-        image: 'metabase/metabase:v0.42.3'
+        image: 'metabase/metabase:v0.44.1'
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
